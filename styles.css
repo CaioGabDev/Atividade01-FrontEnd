@@ -6,7 +6,9 @@
     }
 
     body {
-        background-color: #f4f4f9;
+        background-image: url(./media/929662.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -14,8 +16,7 @@
     }
 
     .container {
-        background-color: white;
-        backdrop-filter: blur(5px); 
+        backdrop-filter: blur(1rem); 
         padding: 30px;
         border-radius: 8px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -44,7 +45,7 @@
 
     #add-button {
         padding: 10px 15px;
-        background-color: #4CAF50;
+        background-color:black;
         color: white;
         font-size: 16px;
         border: none;
@@ -54,7 +55,8 @@
     }
 
     #add-button:hover {
-        background-color: #45a049;
+        background-color: white;
+        color:#333
     }
 
     ul {
@@ -73,7 +75,7 @@
 
     li span {
         font-size: 18px;
-        color: #333;
+        color: white;
     }
 
     .remove-btn {

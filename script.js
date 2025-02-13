@@ -10,7 +10,6 @@ document.getElementById("add-button").addEventListener("click", function() {
 
 function addTask(taskText) {
     const taskList = document.getElementById("task-list");
-    
     const li = document.createElement("li");
 
     const span = document.createElement("span");
@@ -20,6 +19,7 @@ function addTask(taskText) {
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remover";
     removeButton.classList.add("remove-btn");
+    
 
     removeButton.addEventListener("click", function() {
         taskList.removeChild(li);
